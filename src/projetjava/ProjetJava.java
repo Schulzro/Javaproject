@@ -13,7 +13,7 @@ public class ProjetJava {
 
     /**
      * @param args the command line arguments
-     */
+     *///Bonjour les sardines 
     public static void main(String[] args) {
         // TODO code application logic here
     }
