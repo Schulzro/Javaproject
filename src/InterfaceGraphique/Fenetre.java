@@ -146,7 +146,7 @@ public class Fenetre extends JFrame implements ActionListener, ItemListener {
         listeRequetesMaj.addItemListener(this);
 
         // couleurs des objets graphiques
-        bouton1.setBackground(Color.green);
+        /*bouton1.setBackground(Color.green);
         bouton_Fer.setBackground(Color.yellow);
         bouton_Afc.setBackground(Color.red);
         p1.setBackground(Color.blue);
@@ -156,7 +156,7 @@ public class Fenetre extends JFrame implements ActionListener, ItemListener {
         listeDeRequetes.setBackground(Color.blue);
         listeDeChamps.setBackground(Color.green);
         fenetreRes.setBackground(Color.yellow);
-        listeRequetesMaj.setBackground(Color.white);
+        listeRequetesMaj.setBackground(Color.white);*/
 
         // disposition geographique des panneaux
         add("North", nord);
@@ -210,8 +210,8 @@ public class Fenetre extends JFrame implements ActionListener, ItemListener {
             try {
                 try {
                     // tentative de connexion si les 4 attributs sont remplis
-                    maconnexion = new Connexion(nameECETexte.getText(), passwdECEString,
-                            loginBDDTexte.getText(), passwdBDDString);
+                    maconnexion = new Connexion("schulzro", "KalaDin20?",
+                           "schulzro-rw", "Nnk2NWVx");
                 } catch (ClassNotFoundException cnfe) {
                     System.out.println("Connexion echouee : probleme de classe");
                     cnfe.printStackTrace();
